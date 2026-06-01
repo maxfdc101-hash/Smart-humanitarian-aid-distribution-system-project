@@ -9,6 +9,4 @@ venv/
 data/raw/
 data/processed/
 
-models/*.pkl
-
 .vscode/
