@@ -26,6 +26,8 @@ def predict_priority(data):
     # Convert input to DataFrame
     df = pd.DataFrame([data])
 
+    df["SpecialCase"] = df["SpecialCase"].astype(int)
+
     # Apply feature engineering
     df = feature_engineering(df)
 
